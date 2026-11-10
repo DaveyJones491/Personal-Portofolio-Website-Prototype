@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio</title>
+
+    
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .album {
+        position: relative;
+        overflow: hidden;
+        background: transparent !important;
+      }
+
+      .album video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+      }
+
+      .album .container {
+        position: relative;
+        z-index: 1;
+      }
+    </style>
+      
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">This is a prototype personal portofolio website for Koding Next Assessment</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://github.com/DaveyJones491" target="_blank" class="text-white">Github</a></li>
+            <li><a href="https://gmail.com" target="_blank" class="text-white">Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <strong>Portofolio</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light"> David Owen Portofolio</h1>
+        <p class="lead text-muted">Hi! This is a few of my work over the year, i have many more project aside from these, but i deem these three to be the most important ones</p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5">
+    <video autoplay loop muted playsinline>
+      <source src="../assets/bg.mp4" type="video/mp4">
+    </video>
+    <div class="container" >
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../assets/Exam.png" alt="Maling no Swiping">
+            <div class="card-body">
+              <h3 class="card-text">Web-Based Examination for the Visually Impaired</h3>
+              <p class="card-text">This is my Final Thesis project, it is a Web-Based Examination Application that utilize Text-to-Speech and Speech-to-Text technology into it. All the navigation (aside from the login) is done via Speech-to-Text</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/DaveyJones491/Tugas-Akhir" target="_blank"><img src="../assets/Github.png" height="20px"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail not Available for confidential reasons</text></svg>
+
+            <div class="card-body">
+              <h3 class="card-text">E-HRMS</h3>
+              <p class="card-text">E-HRMS is a Web-Based database management application that is meant to be used by HR to make it easier to oversee and manage which employee is in need of training</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../assets/maling.jpg" alt="Maling no Swiping">
+            <div class="card-body">
+              <h3 class="card-text">Maling no Swiping</h3>
+              <p class="card-text">Maling no Swiping is a mobile side-scrolling endless runner game made with Unity. You follow the story of a Final Year ITB student that got his laptop stolen which have all his final project files in it to chase down the thief who stole it</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/ozer0532/Maling-No-Swiping" target="_blank"><img src="../assets/Github.png" height="20px"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
